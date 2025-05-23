@@ -1,0 +1,37 @@
+{
+  "name": "custom-button",
+  "label": "custom-button",
+  "type": "widget",
+  "version": "1.17.0",
+  "exbVersion": "1.17.0",
+  "author": "Esri R&D Center Beijing",
+  "description": "This is a button widget, which is represented as a UI element, like an icon, text, or the composition.",
+  "copyright": "",
+  "license": "http://www.apache.org/licenses/LICENSE-2.0",
+  "properties": {
+    "hasSettingPage": true,
+    "supportRepeat": true,
+    "canCrossLayoutBoundary": true,
+    "coverLayoutBackground": true,
+    "hasBuilderSupportModule": true
+  },
+  "extensions": [
+    {
+      "name": "quick-style",
+      "point": "CONTEXT_TOOL",
+      "uri": "tools/quick-style"
+    },
+    {
+      "name": "appConfigOperations",
+      "point": "APP_CONFIG_OPERATIONS",
+      "uri": "tools/app-config-operations"
+    }
+  ],
+  "defaultSize": {
+    "width": 220,
+    "height": 50
+  },
+  "publishMessages": [
+    "BUTTON_CLICKde"
+  ]
+}
