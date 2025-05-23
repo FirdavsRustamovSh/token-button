@@ -6,6 +6,7 @@
   "exbVersion": "1.17.0",
   "author": "Esri R&D Center Beijing",
   "description": "This is a button widget, which is represented as a UI element, like an icon, text, or the composition.",
+  "main": "widget",
   "copyright": "",
   "license": "http://www.apache.org/licenses/LICENSE-2.0",
   "properties": {
