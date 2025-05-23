@@ -1,6 +1,6 @@
 {
-  "name": "custom-button",
-  "label": "custom-button",
+  "name": "token-button",
+  "label": "token-button",
   "type": "widget",
   "version": "1.17.0",
   "exbVersion": "1.17.0",
